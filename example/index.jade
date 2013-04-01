@@ -1,0 +1,109 @@
+!!!5
+html(lang="en")
+  head
+    
+    meta(charset="utf-8")
+    
+    title ui.css
+
+    :stylus
+      body
+        font-size 17px
+        padding 50px
+        width 200px
+        line-height 50px
+
+    link(rel="stylesheet", href="../build/build.css")
+
+  body
+
+    div
+      a(href="javascript:")
+        | Link
+
+    div
+      form.form-horiz
+        legend Form
+        fieldset
+
+    div
+      input(type='text')
+
+    div
+      input.highlight(type='text')
+
+    div
+      input.error(type='text')
+
+    div
+      textarea
+
+    div
+      select
+        option mango
+        option passion
+
+    div
+      select(multiple="multiple")
+        option mango
+        option passion
+
+    div
+      input(type="checkbox")
+
+    div
+      input(type="radio")
+
+    div
+      table
+        thead
+          tr
+            th Name
+            th Age
+        tbody
+          tr
+            td Jon
+            td 22
+          tr
+            td Doe
+            td 23
+
+    #buttons
+
+      div
+        button.white White
+
+    script(src="../build/build.js")
+
+    :coffeescript
+
+      window.$ = require 'component-jquery'
+      
+      $(document).ready ->
+
+        colors = [
+          'black'
+
+          'red'
+
+          'tomato'
+          'deeppink'
+
+          'green'
+          
+          'darkmagenta'
+          'darkslateblue'
+          'deepskyblue'
+
+          'blue'
+        ]
+
+        buttons = $ '#buttons'
+
+        for color in colors
+          e = """
+          <div>
+            <button style='background-color: #{color}'>#{color}</button>
+          </div>
+          """
+          buttons.append e

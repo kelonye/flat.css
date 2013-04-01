@@ -1,0 +1,216 @@
+/*
+::-webkit-scrollbar
+  width 7px
+
+::-webkit-scrollbar-thumb
+  border-radius 14px
+  background #fcc
+
+::-webkit-scrollbar-track
+  margin 3rem
+*/
+*
+  font-family: 'URW Gothic L', 'Helvetica Neue', Helvetica, Arial, sans-serif
+
+script
+  display none
+
+a
+  text-decoration none
+  &:active,
+  &:hover
+    text-decoration underline
+
+h1, h2, h3, h4, h5, h6, th
+  font-weight normal
+
+.is-checked
+  color #B7B7B7
+
+[class*='col-']
+  &.empty::before
+    content "☮"
+    color transparent
+
+
+a.button
+  &,
+  &:hover
+    text-decoration none
+    display inline-block
+
+button,
+.button
+  
+  margin 1px
+  border-radius 3px
+  padding 4px 14px
+  line-height 20px
+  text-align center
+  vertical-align middle
+  cursor pointer
+  font-size inherit
+
+  background-image none
+
+  &.white
+    background-color #fff
+    border 1px solid #bbb
+
+  &:not(.white)
+    color #fff
+    text-shadow rgba(0, 0, 0, 0.25) 0 1px 0
+    border-style none
+    padding 5px 15px
+
+    &:hover,
+    &:focus,
+    &:active
+      opacity .8
+
+table
+  width 100%
+
+  &,
+  th,
+  td
+    border-spacing 0
+    border-collapse collapse
+  
+  &.table-list
+    cursor pointer
+    th,
+    td
+      &:nth-of-type(1)
+        width 10px
+
+  th,
+  td
+    line-height 20px
+    text-align left
+    vertical-align top
+    padding 4px 5px
+    border-bottom 1px solid #ddd
+    /*
+    i
+      display none
+      &:hover
+        display inline-block
+    */
+
+
+
+.form-horiz
+
+  [class*="col-"]:first-of-type
+    text-align right
+
+  margin-top 20px
+  box-shadow 0 0 225px rgba(255, 255, 255, 0.55)
+  border-radius 3px
+  border 1px solid rgba(0, 0, 0, .1)
+
+  legend
+    background-color #EAEAE3
+    padding 0 12px
+    color #333
+    text-shadow 0 1px 0 #F5F5F1
+    box-sizing border-box
+    line-height 40px
+    display block
+    width 100%
+    border-top 1px solid #F5F5F1
+    border-bottom 1px solid #D9D9D9
+    border-radius top 3px
+
+  fieldset
+    margin 20px 0
+    padding 10px 30px
+    border 0
+
+  .control-group
+    overflow auto
+    margin-bottom 5px
+
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags),
+.pillbox,
+.cke_editable,
+textarea
+  font-size inherit
+  padding 5px
+  outline none
+  border 1px solid #bbb
+  border-radius 2px
+
+  &:hover
+    border 1px solid #bbb
+    box-shadow none
+
+  &:focus
+    border 1px solid #00bce9
+    box-shadow 0 0 5px #2da1ec
+
+  &.highlight
+    border 1px solid #ffcc33
+    box-shadow 0 0 5px #ffff00
+
+  &.error
+    border 1px solid #dd212b
+    box-shadow 0 0 5px #ed1b24
+
+.cke_editable
+  width 99%
+  box-sizing border-box !important
+
+.form-horiz
+  input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags),
+  .pillbox,
+  textarea,
+  select
+    width 99%
+
+div.error
+  color #c00
+
+div.help
+  color rgb(11, 158, 11)
+
+select
+  background-color transparent
+  font-size inherit
+  border #bbb
+  border-radius 2px
+
+
+::-webkit-input-placeholder
+  color #ccc
+  font-weight lighter
+
+::-moz-input-placeholder
+  color #ccc
+  font-weight lighter
+
+ul,
+ol
+ list-style none
+
+.pillbox
+  ul
+    li
+      border 1px solid #eee
+      border-radius 3px
+      padding 0 5px
+      margin 1px 1px
+      a
+        //border 1px solid #eee
+        //border-radius 100px
+        margin-left 10px
+        //padding 0 3px
+        color #eee
+        &:hover
+          text-decoration none
+
+  input
+
+.clear
+  clear both

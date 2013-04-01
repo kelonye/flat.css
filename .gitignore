@@ -1,0 +1,6 @@
+syntax: glob
+
+build/
+components/
+example/index.html
+node_modules/

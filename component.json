@@ -1,0 +1,13 @@
+{
+  "name": "style",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {},
+  "development": {
+    "component/jquery": "*",
+    "component/simple-grid": "*"
+  },
+  "styles": [
+    "lib/style.css"
+  ]
+}
