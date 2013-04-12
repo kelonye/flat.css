@@ -1,15 +1,15 @@
-all: node_modules build example/index.html
-
-node_modules: package.json
-	@npm install
+all: build example/index.html
 
 example/index.html: example/index.jade
 	jade -P < $< --path $< > $@
 
-build: components lib lib/style.css
+build: node_modules components lib lib/style.css
 	@component build --dev
 
-components: component.json
+node_modules:
+	@npm install
+
+components:
 	@component install --dev
 
 lib:

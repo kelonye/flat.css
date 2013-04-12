@@ -25,7 +25,6 @@ input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags)
 input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags):focus,.pillbox:focus,.cke_editable:focus,textarea:focus{border:1px solid #00bce9;box-shadow:0 0 5px #2da1ec}
 input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags).highlight,.pillbox.highlight,.cke_editable.highlight,textarea.highlight{border:1px solid #fc3;box-shadow:0 0 5px #ff0}
 input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags).error,.pillbox.error,.cke_editable.error,textarea.error{border:1px solid #dd212b;box-shadow:0 0 5px #ed1b24}
-.cke_editable{width:99%;box-sizing:border-box !important}
 .form-horiz input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags),.form-horiz .pillbox,.form-horiz textarea,.form-horiz select{width:99%}
 div.error{color:#c00}
 div.help{color:#0b9e0b}
