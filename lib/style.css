@@ -3,6 +3,7 @@ script{display:none}
 a{text-decoration:none;}
 a:active,a:hover{text-decoration:underline}
 h1,h2,h3,h4,h5,h6,th{font-weight:normal}
+ul,ol{padding:0}
 .is-checked{color:#b7b7b7}
 [class*='col-'].empty::before{content:"☮";color:transparent}
 a.button,a.button:hover{text-decoration:none;display:inline-block}
