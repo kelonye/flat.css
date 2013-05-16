@@ -6,12 +6,13 @@ html(lang="en")
     
     title ui.css
 
-    :stylus
-      body
-        font-size 17px
-        padding 50px
-        width 200px
-        line-height 50px
+    style
+      body{
+        font-size: 17px;
+        padding: 50px;
+        width: 200px;
+        line-height: 50px
+      }
 
     link(rel="stylesheet", href="../build/build.css")
 
@@ -77,9 +78,7 @@ html(lang="en")
 
     :coffeescript
 
-      window.$ = require 'component-jquery'
-      
-      $(document).ready ->
+        $ = require 'jquery'
 
         colors = [
           'black'

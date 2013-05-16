@@ -1,11 +1,12 @@
 {
-  "name": "style",
+  "name": "flat.css",
   "version": "0.0.1",
   "license": "MIT",
-  "dependencies": {},
-  "development": {
-    "component/jquery": "*",
+  "dependencies": {
     "component/simple-grid": "*"
+  },
+  "development": {
+    "component/jquery": "*"
   },
   "styles": [
     "lib/style.css"

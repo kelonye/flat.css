@@ -1,12 +1,10 @@
 {
-  "name": "style",
+  "name": "flat.css",
   "version": "0.0.1",
   "description": "",
   "license": "MIT",
   "devDependencies": {
-    "nib": "*",
     "jade": "*",
-    "stylus": "*",
     "component": "*",
     "coffee-script": "*"
   }
