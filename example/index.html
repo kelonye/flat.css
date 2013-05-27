@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>flat.css</title>
+    <style>
+      body{
+        font-size: 17px;
+        padding: 50px;
+        width: 200px;
+        line-height: 50px
+      }
+      
+    </style>
+    <link rel="stylesheet" href="../public/public.css">
+  </head>
+  <body>
+    <div><a href="javascript:">Link</a></div>
+    <div>
+      <form class="form-horiz">
+        <legend>Form</legend>
+        <fieldset></fieldset>
+      </form>
+    </div>
+    <div>
+      <input type="text">
+    </div>
+    <div>
+      <input type="text" class="highlight">
+    </div>
+    <div>
+      <input type="text" class="error">
+    </div>
+    <div>
+      <textarea></textarea>
+    </div>
+    <div>
+      <select>
+        <option>mango</option>
+        <option>passion</option>
+      </select>
+    </div>
+    <div>
+      <select multiple="multiple">
+        <option>mango</option>
+        <option>passion</option>
+      </select>
+    </div>
+    <div>
+      <input type="checkbox">
+    </div>
+    <div>
+      <input type="radio">
+    </div>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jon</td>
+            <td>22</td>
+          </tr>
+          <tr>
+            <td>Doe</td>
+            <td>23</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div id="buttons">
+      <div>
+        <button class="white">White</button>
+      </div>
+    </div>
+    <script src="../public/public.js"></script>
+    <script>
+      var buttons = require('jquery')('#buttons')
+        , colors = [
+          'black',
+          'red',
+          'tomato',
+          'deeppink',
+          'green',
+          'darkmagenta',
+          'darkslateblue',
+          'deepskyblue',
+          'blue',
+        ];
+        
+      colors.forEach(function(color){
+        buttons.append("<div><button style='background-color: "+color+"'>"+color+"</button></div>");
+      });
+    </script>
+  </body>
+</html>

@@ -1,10 +1,5 @@
-all: build example/index.html
-
-example/index.html: example/index.jade
-	jade -P < $< --path $< > $@
-
-build: node_modules components lib lib/style.css
-	@component build --dev
+public: node_modules components lib lib/style.css
+	@component build --dev -n public -o public
 
 node_modules:
 	@npm install
@@ -12,13 +7,7 @@ node_modules:
 components:
 	@component install --dev
 
-lib:
-	@mkdir -p lib
-
-lib/style.css: src/style.styl
-	stylus -u nib --compress < $< > $@
-
 clean:
-	@rm -rf example/index.html build lib
+	@rm -rf public
 
 .PHONY: clean

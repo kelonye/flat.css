@@ -4,8 +4,6 @@
   "description": "",
   "license": "MIT",
   "devDependencies": {
-    "jade": "*",
-    "component": "*",
-    "coffee-script": "*"
+    "component": "*"
   }
 }
