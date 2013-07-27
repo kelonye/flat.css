@@ -106,7 +106,7 @@ table td {
   border-bottom: 1px solid #ddd;
 }
 .form-horiz {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
   box-shadow: 0 0 225px rgba(255,255,255,0.55);
   border-radius: 3px;
   border: 1px solid rgba(0,0,0,0.10);
