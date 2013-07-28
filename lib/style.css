@@ -14,6 +14,36 @@
   /*margin: 0;
   padding: 0;*/
 }
+/* utils */
+
+.underline{
+  text-decoration: underline;
+}
+.camelcase{
+  text-transform: capitalize;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.lowercase{
+  text-transform: lowercase;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+
 script {
   display: none;
 }
