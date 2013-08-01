@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+}
+table,
+table th,
+table td {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+table.table-list {
+  cursor: pointer;
+}
+table.table-list th:nth-of-type(1),
+table.table-list td:nth-of-type(1) {
+  width: 10px;
+}
+table th,
+table td {
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  padding: 4px 5px;
+  border-bottom: 1px solid #ddd;
+}

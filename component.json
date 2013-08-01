@@ -9,6 +9,11 @@
     "component/jquery": "*"
   },
   "styles": [
-    "lib/style.css"
+    "lib/buttons.css",
+    "lib/form.css",
+    "lib/other.css",
+    "lib/table.css",
+    "lib/text.css",
+    "lib/utils.css"
   ]
 }

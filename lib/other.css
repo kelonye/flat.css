@@ -1,0 +1,26 @@
+/**
+  * Contains styles for other components
+  * TODO: remove this
+  */
+
+/* component/simple-grid */
+[class*="col-"].empty::before {
+  content: "☮";
+  color: transparent;
+}
+
+/* component/pillbox */
+
+.pillbox ul li {
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding: 0 5px;
+  margin: 1px 1px;
+}
+.pillbox ul li a {
+  margin-left: 10px;
+  color: #eee;
+}
+.pillbox ul li a:hover {
+  text-decoration: none;
+}

@@ -1,0 +1,38 @@
+* {
+  font-family: "URW Gothic L", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*margin: 0;
+  padding: 0;*/
+}
+.underline{
+  text-decoration: underline;
+}
+.camelcase{
+  text-transform: capitalize;
+}
+.uppercase{
+  text-transform: uppercase;
+}
+.lowercase{
+  text-transform: lowercase;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.is-checked {
+  color: #b7b7b7;
+}
+.clear {
+  clear: both;
+}
