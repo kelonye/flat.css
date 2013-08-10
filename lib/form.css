@@ -80,6 +80,7 @@ form .help {
   color: #0b9e0b;
 }
 select {
+  outline: none;
   background-color: transparent;
   font-size: inherit;
   border: #bbb;
