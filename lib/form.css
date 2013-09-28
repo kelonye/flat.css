@@ -83,7 +83,7 @@ select {
   outline: none;
   background-color: transparent;
   font-size: inherit;
-  border: #bbb;
+  border: 1px solid #bbb;
   border-radius: 2px;
 }
 ::-webkit-input-placeholder {
