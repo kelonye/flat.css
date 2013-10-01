@@ -7,6 +7,7 @@
 [class*="col-"].empty::before {
   content: "☮";
   color: transparent;
+  text-shadow: none;
 }
 
 /* component/pillbox */
