@@ -8,6 +8,10 @@ button,
   display: inline-block;
   vertical-align: middle;
   background-image: none;
+  border-style: none;
+  padding: 5px 15px;
+  color: #000;
+  text-shadow: rgba(255,255,255,0.25) 0 1px 0;
 }
 button,
 button:hover,
@@ -19,8 +23,6 @@ button:active,
 .button:active {
   outline: none;
   text-decoration: none;
-  color: #111;
-  text-shadow: rgba(255,255,255,0.25) 0 1px 0;
 }
 button:hover,
 button:focus,
@@ -34,11 +36,6 @@ button:active,
 /* white */
 
 button.white,
-.button.white {
-  background-color: #fff;
-  border: 1px solid #bbb;
-}
-button.white,
 button.white:hover,
 button.white:focus,
 button.white:active,
@@ -46,21 +43,21 @@ button.white:active,
 .button.white:hover,
 .button.white:focus,
 .button.white:active {
+  background-color: #fff;
+  border: 1px solid #bbb;
   padding: 4px 14px;
 }
 
+/* black */
 
-
-/* other */
-
-button:not(.white),
-button:not(.white):hover,
-button:not(.white):focus,
-button:not(.white):active,
-.button:not(.white),
-.button:not(.white):hover,
-.button:not(.white):focus,
-.button:not(.white):active {
-  border-style: none;
-  padding: 5px 15px;
+button.black,
+button.black:hover,
+button.black:focus,
+button.black:active,
+.button.black,
+.button.black:hover,
+.button.black:focus,
+.button.black:active {
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0) 0 1px 0;
 }

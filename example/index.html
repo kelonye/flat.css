@@ -81,6 +81,7 @@
     <script>
       var buttons = require('jquery')('#buttons')
         , colors = [
+          'black',
           'gray',
           'red',
           'tomato',
@@ -93,7 +94,7 @@
         ];
         
       colors.forEach(function(color){
-        buttons.append("<div><button style='background-color: "+color+"'>"+color+"</button></div>");
+        buttons.append("<div><button class='"+color+"' style='background-color: "+color+"'>"+color+"</button></div>");
       });
     </script>
   </body>
