@@ -3,8 +3,8 @@
   * TODO: remove this
   */
 
-/* component/simple-grid */
-[class*="col-"].empty::before {
+/* for component/simple-grid etc */
+.empty::before {
   content: "☮";
   color: transparent;
   text-shadow: none;
