@@ -2,7 +2,8 @@ lib=$(shell find lib -type f)
 component = ./node_modules/component-hooks/node_modules/.bin/component
 
 public: node_modules components $(lib)
-	@$(component) build --dev -n public -o public
+	$(component) build --dev -n public -o public
+	@touch $@
 
 node_modules:
 	@npm install

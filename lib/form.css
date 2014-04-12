@@ -1,13 +1,12 @@
-.form-horiz {
-  /*margin-top: 20px;*/
+.form {
   box-shadow: 0 0 225px rgba(255,255,255,0.55);
   border-radius: 3px;
   border: 1px solid rgba(0,0,0,0.10);
 }
-.form-horiz [class*="col-"]:first-of-type {
+.form [class*="col-"]:first-of-type {
   text-align: right;
 }
-.form-horiz legend {
+.form legend {
   background-color: #eaeae3;
   padding: 0 12px;
   color: #333;
@@ -20,16 +19,16 @@
   border-bottom: 1px solid #d9d9d9;
   border-radius: top 3px;
 }
-.form-horiz fieldset {
+.form fieldset {
   margin: 20px 0;
   padding: 10px 30px;
   border: 0;
 }
-.form-horiz .control-group {
+.form .control-group {
   overflow: auto;
   margin-bottom: 5px;
 }
-input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags),
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(.tags),
 .pillbox,
 .cke_editable,
 textarea {
@@ -39,38 +38,38 @@ textarea {
   border: 1px solid #bbb;
   border-radius: 2px;
 }
-input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags):hover,
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(.tags):hover,
 .pillbox:hover,
 .cke_editable:hover,
 textarea:hover {
   border: 1px solid #bbb;
   box-shadow: none;
 }
-input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags):focus,
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(.tags):focus,
 .pillbox:focus,
 .cke_editable:focus,
 textarea:focus {
   border: 1px solid #00bce9;
   box-shadow: 0 0 5px #2da1ec;
 }
-input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags).highlight,
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(.tags).highlight,
 .pillbox.highlight,
 .cke_editable.highlight,
 textarea.highlight {
   border: 1px solid #fc3;
   box-shadow: 0 0 5px #ff0;
 }
-input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags).error,
+input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(.tags).error,
 .pillbox.error,
 .cke_editable.error,
 textarea.error {
   border: 1px solid #dd212b;
   box-shadow: 0 0 5px #ed1b24;
 }
-.form-horiz input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(#tags),
-.form-horiz .pillbox,
-.form-horiz textarea,
-.form-horiz select {
+.form input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]):not(.tags),
+.form .pillbox,
+.form textarea,
+.form select {
   width: 99%;
 }
 form .error {
