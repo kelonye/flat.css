@@ -1,5 +1,0 @@
-.empty::before {
-  content: "☮";
-  color: transparent;
-  text-shadow: none;
-}

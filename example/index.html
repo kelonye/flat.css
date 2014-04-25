@@ -1,42 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="utf-8">
+    <meta charset='utf-8'>
     <title>flat.css</title>
+    <link rel='stylesheet' href='../public/public.css'>
     <style>
       body{
         font-size: 17px;
         padding: 50px;
         width: 200px;
-        line-height: 50px
+        line-height: 3em;
       }
-      
     </style>
-    <link rel="stylesheet" href="../public/public.css">
   </head>
   <body>
-    <div><a href="javascript:">Link</a></div>
+    <div><a href='javascript:'>Link</a></div>
     <div>
-      <form class="form">
+      <form class='form'>
         <legend>Form</legend>
         <fieldset></fieldset>
       </form>
     </div>
     <div>
-      <input type="text">
+      <input type='text'>
     </div>
     <div>
-      <input type="text" class="highlight">
+      <input type='text' class='highlight'>
     </div>
     <div>
-      <input type="text" class="error">
+      <input type='text' class='error'>
     </div>
     <div>
       <textarea></textarea>
     </div>
-    <div id="buttons">
+    <div id='buttons'>
       <div>
-        <button class="white">White</button>
+        <button class='white'>White</button>
       </div>
     </div>
     <div>
@@ -46,16 +45,16 @@
       </select>
     </div>
     <div>
-      <select multiple="multiple">
+      <select multiple='multiple'>
         <option>mango</option>
         <option>passion</option>
       </select>
     </div>
     <div>
-      <input type="checkbox">
+      <input type='checkbox'>
     </div>
     <div>
-      <input type="radio">
+      <input type='radio'>
     </div>
     <div>
       <table>
@@ -77,24 +76,24 @@
         </tbody>
       </table>
     </div>
-    <script src="../public/public.js"></script>
+    <script src='../public/public.js'></script>
     <script>
-      var buttons = require('jquery')('#buttons')
-        , colors = [
-          'black',
-          'gray',
-          'red',
-          'tomato',
-          'deeppink',
-          'green',
-          'darkmagenta',
-          'darkslateblue',
-          'deepskyblue',
-          'blue',
-        ];
-        
+      var buttons = require('jquery')('#buttons');
+      var colors = [
+        'black',
+        'gray',
+        'red',
+        'tomato',
+        'deeppink',
+        'green',
+        'darkmagenta',
+        'darkslateblue',
+        'deepskyblue',
+        'blue',
+      ];
+      
       colors.forEach(function(color){
-        buttons.append("<div><button class='"+color+"' style='background-color: "+color+"'>"+color+"</button></div>");
+        buttons.append('<div><button style="background-color: '+color+'">'+color+'</button></div>');
       });
     </script>
   </body>

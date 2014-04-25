@@ -1,7 +1,5 @@
 * {
   font-family: "URW Gothic L", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  /*margin: 0;
-  padding: 0;*/
 }
 .underline{
   text-decoration: underline;
@@ -35,4 +33,9 @@
 }
 .clear {
   clear: both;
+}
+.empty::before {
+  content: "☮";
+  color: transparent;
+  text-shadow: none;
 }
