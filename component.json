@@ -3,7 +3,7 @@
   "version": "0.0.5",
   "license": "MIT",
   "dependencies": {
-    "component/simple-grid": "0.0.1"
+    "kelonye/simple-grid": "0.0.1"
   },
   "development": {
     "component/jquery": "*"
