@@ -6,7 +6,7 @@
     "kelonye/simple-grid": "0.0.1"
   },
   "development": {
-    "component/jquery": "*"
+    "kelonye/jquery": "1.10.2"
   },
   "styles": [
     "lib/buttons.css",
